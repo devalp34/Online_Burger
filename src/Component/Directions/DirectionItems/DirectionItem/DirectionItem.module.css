@@ -1,0 +1,45 @@
+    .DirectionItem {
+        margin : 10px 0;
+        box-sizing : border-box;
+        display : block;
+        width : 100%;
+    }
+    
+    .DirectionItem a {
+        color : #8F5C2C;
+        text-decoration: none;
+        width: 100%;
+        box-sizing : border-box;
+        display: block;
+    }
+    
+    .DirectionItem a:hover,
+    .DirectionItem a:active,
+    .DirectionItem a.active{
+        color : rgb(64, 200, 93);
+    }
+
+@media(min-width : 500px) {
+    .DirectionItem {
+        margin : 0;
+        display : flex;
+        width : auto;
+        height : 100%;
+        align-items: center;
+    }
+    
+    .DirectionItem a {
+        color : #8F5C2C;
+        height: 100%;
+        padding : 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .DirectionItem a:hover,
+    .DirectionItem a:active,
+    .DirectionItem a.active{
+        background-color: #8F5C2C;
+        border-bottom: 4px solid rgb(64, 200, 109);
+        color : white;
+    }    
+}

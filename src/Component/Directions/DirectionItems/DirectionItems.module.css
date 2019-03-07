@@ -1,0 +1,15 @@
+.DirectionItems {
+    margin : 0;
+    padding: 0;
+    list-style: none ;
+    display : flex;
+    flex-flow:column;
+    align-items: center;
+    height : 100%;
+}
+
+@Media (min-width : 500px){
+    .DirectionItems{
+        flex-flow: row;
+    }
+}
